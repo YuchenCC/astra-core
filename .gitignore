@@ -1,0 +1,20 @@
+# Local OS and editor state
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated output
+target/
+node_modules/
+dist/
+__pycache__/
+*.pyc
