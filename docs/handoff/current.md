@@ -9,13 +9,13 @@
 - M2 起点及待确认问题见说明书第 8.4 节；不要假定完整检查点、持久会话、自动恢复或状态机已确认。
 - 后续顺序建议：M2 生命周期与上下文 → M3 契约 → 补齐 M1 接入 → M2 策略 → M3 模型适配 → M4 → M5 → M6 → M7，按实际讨论调整，不构成排期承诺。
 
-## 本轮协作改造
+## 协作改造检查快照（2026-10-29）
 
 - 任务标识：yuchen-collaboration-workflow；起点 main 为 358c5d8658572ccc7822f671307be2b432253156。
-- 状态：工作分支候选，待 PR 人工审阅；本轮不合并。
+- [PR #1](https://github.com/YuchenCC/astra-core/pull/1) 已创建。本节为检查快照，不表示实时待审或合并状态；续接时以 PR 状态和 main 中的提交为准。
 - 唯一说明书已整合，原十份材料归档；README 为贡献者入口，AGENTS 限定任务上下文，两个共享 Skill 负责标准 PR 和最终整合。
 - 无业务范围新增；业务共识继承 0.5，文档整理与协作规则版本为 0.7。
-- 具体执行结果见本轮 PR 与 Git；续接本任务时由用户指定 collaboration/tasks/yuchen-collaboration-workflow/handoff.md，不作为所有新任务的默认输入。
+- 本次复查已修正完整 PR 差异检查和交接状态指引；具体发布、合并结果见 PR 与 Git；续接本任务时由用户指定 collaboration/tasks/yuchen-collaboration-workflow/handoff.md，不作为所有新任务的默认输入。
 
 ## 依赖与限制
 
